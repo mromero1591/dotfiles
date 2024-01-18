@@ -20,7 +20,5 @@ sudo install lazygit /usr/local/bin
 # Clone neovim and tmux configs
 git clone https://github.com/mromero1591/nvim.git ~/.config/nvim
 
-echo "echo \"\$OPENAPI_KEY\"" >> ~/.config/openapikey.sh
-sudo chmod +x ~/.config/openapikey.sh
-
 echo "export TERM=xterm-256color" >> ~/.profile
+echo "alias vim='nvim'" >> ~/.profile 
