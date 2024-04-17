@@ -19,6 +19,7 @@ sudo install lazygit /usr/local/bin
 
 # Clone neovim and tmux configs
 git clone https://github.com/mromero1591/nvim.git ~/.config/nvim
+git clone https://github.com/mromero1591/tmux.git ~/.config/tmux
 
-echo "export TERM=xterm-256color" >> ~/.profile
-echo "alias vim='nvim'" >> ~/.profile 
+echo "export TERM=xterm-256color" >>~/.profile
+echo "alias vim='nvim'" >>~/.profile
