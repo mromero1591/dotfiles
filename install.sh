@@ -17,6 +17,9 @@ tar xf lazygit.tar.gz lazygit
 
 sudo install lazygit /usr/local/bin
 
+## install tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # Clone neovim and tmux configs
 git clone https://github.com/mromero1591/nvim.git ~/.config/nvim
 git clone https://github.com/mromero1591/tmux.git ~/.config/tmux
