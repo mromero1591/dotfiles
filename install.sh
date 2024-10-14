@@ -23,3 +23,4 @@ git clone https://github.com/mromero1591/tmux.git ~/.config/tmux
 
 echo "export TERM=xterm-256color" >>~/.profile
 echo "alias vim='nvim'" >>~/.profile
+echo "alias gs='git status'" >>~/.profile
